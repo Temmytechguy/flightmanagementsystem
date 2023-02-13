@@ -45,9 +45,12 @@ public class Statistics {
         mileage.addMileageToList(john, distance6);
     }
 
+
     @Then("^the total travel distance should be (\\d+)$")
     public void theTotalTravelDistanceShouldBeTotal_distance(int total_distance) {
 
         assertEquals(total_distance, StatisticsUtil.totalDistance(mileage));
     }
+
+
 }

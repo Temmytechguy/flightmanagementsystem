@@ -21,8 +21,8 @@ public class BonusPolicy {
         mileage = new Mileage();
     }
 
-    @When("^the usual passenger travels <mileage(\\d+)> and <mileage(\\d+)> and <mileage(\\d+)>$")
-    public void theUsualPassengerTravelsMileageAndAnd(int mileage1, int mileage2, int mileage3) {
+    @When("^the usual passenger travels mileage <mileage(\\d+)> and <mileage(\\d+)> and <mileage(\\d+)>$")
+    public void theUsualPassengerTravelsMileageMileageAndMileageAndMileage(int mileage1, int mileage2, int mileage3) {
 
         mileage.addMileage(mike, mileage1);
         mileage.addMileage(mike, mileage2);
@@ -45,8 +45,10 @@ public class BonusPolicy {
 
     }
 
-    @When("^the VIP passenger travels <mileage(\\d+)> and <mileage(\\d+)> and <mileage(\\d+)>$")
-    public void theVIPPassengerTravelsMileageAndMileageAndMileage(int mileage1, int mileage2, int mileage3) {
+
+    @When("^the VIP passenger travels mileage <mileage(\\d+)> and <mileage(\\d+)> and <mileage(\\d+)>$")
+    public void theVIPPassengerTravelsMileageMileageAndMileageAndMileage(int mileage1, int mileage2, int mileage3) {
+
         mileage.addMileage(john, mileage1);
         mileage.addMileage(john, mileage2);
         mileage.addMileage(john, mileage3);
@@ -59,6 +61,8 @@ public class BonusPolicy {
         Assertions.assertEquals(points, mileage.getPassengersPointsMap().get(john).intValue());
 
     }
+
+
 
 
 }

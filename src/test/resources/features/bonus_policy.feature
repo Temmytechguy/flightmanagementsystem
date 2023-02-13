@@ -3,7 +3,7 @@ Feature: Bonus Policy
 
   Scenario Outline: Usual passenger bonus policy
     Given we have a usual passenger with a mileage
-    When the usual passenger travels <mileage1> and <mileage2> and <mileage3>
+    When the usual passenger travels mileage <mileage1> and <mileage2> and <mileage3>
     Then the bonus points of the usual passenger should be <points>
 
     Examples:
@@ -16,7 +16,7 @@ Feature: Bonus Policy
 
   Scenario Outline: VIP passenger bonus policy
     Given we have a VIP passenger with a mileage
-    When the VIP passenger travels <mileage1> and <mileage2> and <mileage3>
+    When the VIP passenger travels mileage <mileage1> and <mileage2> and <mileage3>
     Then the bonus points of the VIP passenger should be <points>
 
     Examples:

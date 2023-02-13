@@ -4,8 +4,8 @@ Feature: Statistics Policy
   Scenario Outline: Calculate total distance
     Given There is a usual passenger
     And there is a VIP passenger
-    When the usual passenger travels distance <distance> and <distance2> and <distance3>
-    And the VIP passenger travels distance<distance4> and <distance5> and <distance6>
+    When the usual passenger travels distance <distance1> and <distance2> and <distance3>
+    And the VIP passenger travels distance <distance4> and <distance5> and <distance6>
     Then the total travel distance should be <total_distance>
 
     Examples:

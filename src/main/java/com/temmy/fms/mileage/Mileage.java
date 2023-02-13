@@ -12,6 +12,11 @@ public class Mileage {
 
     private Map<Passenger, Integer> passengersMileageMap = new HashMap<>();
     private Map<Passenger, Integer> passengersPointMap = new HashMap<>();
+
+    public Map<Passenger, List<Integer>> getPassengersMileageListMap() {
+        return passengersMileageListMap;
+    }
+
     private Map<Passenger, List<Integer>> passengersMileageListMap = new HashMap<>();
 
     public void addMileageToList(Passenger passenger, int miles)
@@ -55,4 +60,6 @@ public class Mileage {
     public Map<Passenger, Integer> getPassengersPointsMap() {
         return Collections.unmodifiableMap(passengersPointMap);
     }
+
+
 }
