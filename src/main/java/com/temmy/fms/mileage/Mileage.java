@@ -1,10 +1,9 @@
 package com.temmy.fms.mileage;
 
 import com.temmy.fms.airport.Passenger;
+import cucumber.api.java.hu.Ha;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Mileage {
 
@@ -13,7 +12,15 @@ public class Mileage {
 
     private Map<Passenger, Integer> passengersMileageMap = new HashMap<>();
     private Map<Passenger, Integer> passengersPointMap = new HashMap<>();
+    private Map<Passenger, List<Integer>> passengersMileageListMap = new HashMap<>();
 
+    public void addMileageToList(Passenger passenger, int miles)
+    {
+        if (!passengersMileageListMap.containsKey(passenger)) {
+            passengersMileageListMap.put(passenger, new ArrayList<>());
+        }
+        passengersMileageListMap.get(passenger).add(miles);
+    }
     public void addMileage(Passenger passenger, int miles)
     {
         if(passengersMileageMap.containsKey(passenger))
