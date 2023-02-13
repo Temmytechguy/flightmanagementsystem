@@ -1,3 +1,3 @@
 # FlightManagementSystem
-using BDD Approach
-and Cocumber Framework
+BDD Approach with cucumber framework
+and Jbehave
