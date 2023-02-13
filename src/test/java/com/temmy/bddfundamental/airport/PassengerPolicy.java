@@ -1,4 +1,4 @@
-package com.temmy.bddfundamental;
+package com.temmy.bddfundamental.airport;
 
 import com.temmy.fms.airport.BusinessFlight;
 import com.temmy.fms.airport.EconomyFlight;

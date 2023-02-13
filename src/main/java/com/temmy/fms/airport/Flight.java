@@ -1,6 +1,8 @@
 package com.temmy.fms.airport;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 
 public abstract class Flight {
 

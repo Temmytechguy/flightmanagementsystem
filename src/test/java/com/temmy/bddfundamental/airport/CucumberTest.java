@@ -1,4 +1,4 @@
-package com.temmy.bddfundamental;
+package com.temmy.bddfundamental.airport;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;

@@ -1,8 +1,5 @@
 package com.temmy.fms.airport;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
 public class PremiumFlight extends Flight{
 
 

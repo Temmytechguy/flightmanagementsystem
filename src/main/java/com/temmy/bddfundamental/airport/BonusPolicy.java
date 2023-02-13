@@ -1,13 +1,12 @@
-package com.temmy.bddfundamental;
+package com.temmy.bddfundamental.airport;
 
 import com.temmy.fms.airport.Passenger;
 import com.temmy.fms.mileage.Mileage;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.jupiter.api.Assertions;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 
 public class BonusPolicy {
@@ -34,7 +33,7 @@ public class BonusPolicy {
     @Then("^the bonus points of the usual passenger should be (\\d+)$")
     public void theBonusPointsOfTheUsualPassengerShouldBe(int points) {
         mileage.calculateGivenPoints();
-        assertEquals(points, mileage.getPassengersPointsMap().get(mike).intValue());
+        Assertions.assertEquals(points, mileage.getPassengersPointsMap().get(mike).intValue());
     }
 
 
@@ -57,7 +56,7 @@ public class BonusPolicy {
     public void theBonusPointsOfTheVIPPassengerShouldBePoints(int points) {
 
         mileage.calculateGivenPoints();
-        assertEquals(points, mileage.getPassengersPointsMap().get(john).intValue());
+        Assertions.assertEquals(points, mileage.getPassengersPointsMap().get(john).intValue());
 
     }
 
