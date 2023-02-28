@@ -7,7 +7,7 @@ stages
 stage('build')
 {
 steps{
-echo 'building stages'
+sh mvn install
 }
 }
 
