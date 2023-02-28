@@ -1,0 +1,7 @@
+com/temmy/fms/airport/EconomyFlight.class
+com/temmy/fms/airport/Flight.class
+com/temmy/fms/mileage/Mileage.class
+com/temmy/fms/airport/Passenger.class
+com/temmy/fms/airport/PremiumFlight.class
+com/temmy/fms/airport/BusinessFlight.class
+com/temmy/fms/mileage/StatisticsUtil.class

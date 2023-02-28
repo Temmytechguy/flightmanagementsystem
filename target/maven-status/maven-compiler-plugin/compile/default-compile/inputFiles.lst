@@ -1,6 +1,7 @@
-/Users/user/IdeaProjects/airport/src/main/java/com/temmy/fms/mileage/Mileage.java
-/Users/user/IdeaProjects/airport/src/main/java/com/temmy/fms/airport/PremiumFlight.java
-/Users/user/IdeaProjects/airport/src/main/java/com/temmy/fms/airport/EconomyFlight.java
-/Users/user/IdeaProjects/airport/src/main/java/com/temmy/fms/airport/Flight.java
-/Users/user/IdeaProjects/airport/src/main/java/com/temmy/fms/airport/BusinessFlight.java
-/Users/user/IdeaProjects/airport/src/main/java/com/temmy/fms/airport/Passenger.java
+/Users/user/Desktop/ALGORITHM/pro/flightmanagementsystem/src/main/java/com/temmy/fms/airport/Passenger.java
+/Users/user/Desktop/ALGORITHM/pro/flightmanagementsystem/src/main/java/com/temmy/fms/airport/EconomyFlight.java
+/Users/user/Desktop/ALGORITHM/pro/flightmanagementsystem/src/main/java/com/temmy/fms/airport/BusinessFlight.java
+/Users/user/Desktop/ALGORITHM/pro/flightmanagementsystem/src/main/java/com/temmy/fms/airport/Flight.java
+/Users/user/Desktop/ALGORITHM/pro/flightmanagementsystem/src/main/java/com/temmy/fms/mileage/Mileage.java
+/Users/user/Desktop/ALGORITHM/pro/flightmanagementsystem/src/main/java/com/temmy/fms/mileage/StatisticsUtil.java
+/Users/user/Desktop/ALGORITHM/pro/flightmanagementsystem/src/main/java/com/temmy/fms/airport/PremiumFlight.java
