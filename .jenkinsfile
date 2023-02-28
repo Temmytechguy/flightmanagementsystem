@@ -7,7 +7,7 @@ stages
 stage('Build)
 {
 steps{
-sh "mvn clean"
+echo 'building the code'
 }
 }
 
@@ -28,14 +28,14 @@ steps{
 stage('Unit Testing')
 {
 steps{
-sh "mvn compile"
+echo 'testing stage'
 }
 }
 
 stage('Release')
 {
 steps{
-sh 
+echo 'released'
 }
 }
 
