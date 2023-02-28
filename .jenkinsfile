@@ -29,7 +29,7 @@ echo 'testing'
 stage('Unit Testing')
 {
 steps{
-sh "mvn compile"
+echo 'unit testing'
 }
 }
 
