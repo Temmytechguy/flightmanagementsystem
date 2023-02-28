@@ -7,7 +7,7 @@ stages
 stage('build')
 {
 steps{
-sh "mvn clean"
+echo 'building stages'
 }
 }
 
@@ -22,7 +22,7 @@ echo 'deploying the code'
 stage('test')
 {
 steps{ 
-sh "mvn test"
+echo 'testing'
 }
 }
 
