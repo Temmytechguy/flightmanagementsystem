@@ -35,7 +35,7 @@ sh "mvn compile"
 stage('Release')
 {
 steps{
-sh 
+echo 'released'
 }
 }
 
